@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transcribe Video/Audio</title>
+</head>
+<body>
+    <div>
+        <p style="width: 100%;"><span>File: <input id="filePath" style="width: 70%;" type="text"></span> | <button style="width: 20%; cursor: pointer;" id="openFileExplorer">Open</button></p>
+        <p style="width: 100%;"><button style="width: 100%; cursor: pointer;" id="transcribeBtn">Transcribe</button></p>
+    </div>
+    
+    <hr>
+
+    <div>
+        <textarea id="transcribeResult" style="width: 100%;"  rows="17"></textarea>
+        <button style="width: 100%; cursor: pointer;" id="export">Export to .txt</button>
+    </div>
+    <script src="/eel.js"></script>
+    <script src="/script.js"></script>
+</body>
+</html>
